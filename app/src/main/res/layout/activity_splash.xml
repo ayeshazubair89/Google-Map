@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="match_parent"
+    android:layout_height="800dp" android:layout_gravity="center"
+    android:background="@color/white" android:gravity="center"
+    android:orientation="vertical" android:paddingTop="2dp"
+    android:paddingBottom="2dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Google Map"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textColor="#6F000000"
+        android:textSize="30sp"/>
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        app:lottie_rawRes="@raw/lottie"
+        android:layout_marginTop="30dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/doppio_one"
+        android:text="GET LIVE LOCATION"
+        android:textAllCaps="false"
+        android:textColor="#9F000000"
+        android:textStyle="bold"/>
+    <Button android:id="@+id/search"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/doppio_one"
+        android:text="SEARCH LOCATION "
+        android:textAllCaps="false"
+        android:textColor="#9F000000"
+        android:textStyle="bold"/>
+    <Button android:id="@+id/route"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom|center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/doppio_one"
+        android:text="FIND ROUTE"
+        android:textAllCaps="false"
+        android:textColor="#9F000000"
+        android:textStyle="bold"/>
+
+</LinearLayout>

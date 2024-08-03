@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">googlemap</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="configure">Configure</string>
+    <string name="add_widget">Add widget</string>
+    <string name="api_key">AIzaSyAMBZDLUlR7B1xUWBz39GANnS6cuuoqN0g</string>
+    <string name="app_widget_description">This is an app widget description</string>
+</resources>

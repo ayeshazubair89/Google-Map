@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Fragment to display our maps -->
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".SimpleSearch"
+        tools:layout="@layout/activity_simple_search" />
+
+    <!-- Search view to search our location -->
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/idSearch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_edit_text"
+        android:elevation="5dp"
+        android:padding="20dp"
+        app:iconifiedByDefault="false"
+        app:queryHint="Search Here"
+        />
+
+    <!-- LinearLayout with rounded one side background -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_one_side"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+
+        <!-- Button inside the LinearLayout -->
+        <Button
+            android:id="@+id/btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/search"
+            android:text=" "
+            tools:ignore="SpeakableTextPresentCheck" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="com.example.googlemap.MyWidgetActivityConfigureActivity"
+    android:description="@string/app_widget_description"
+    android:initialKeyguardLayout="@layout/my_widget_activity"
+    android:initialLayout="@layout/my_widget_activity"
+    android:minWidth="40dp"
+    android:minHeight="40dp"
+    android:previewImage="@drawable/maps"
+    android:previewLayout="@layout/my_widget_activity"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="1"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="86400000"
+    android:widgetCategory="home_screen" />

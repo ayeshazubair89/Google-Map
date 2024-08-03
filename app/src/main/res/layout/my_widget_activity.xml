@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Googlemap.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:theme="@style/Theme.Googlemap.AppWidgetContainer">
+
+    <Button
+        android:id="@+id/btn"
+        style="@style/Widget.Googlemap.AppWidget.InnerView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="8dp"
+        android:contentDescription="google map"
+        android:text="  "
+        android:background="@drawable/maps"
+        android:textSize="24sp"
+        android:textStyle="bold|italic" />
+</LinearLayout>
